@@ -1,0 +1,134 @@
+body {
+    background-color: #F7F2F8;
+}
+
+#chart {
+    width: 616px;
+    height: 358px;
+}
+
+#chart svg {
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    z-index: 1;
+}
+
+#chart canvas {
+    /* position: absolute; */
+    /* width: 100%;
+	height: 100% */
+}
+
+#chart svg .axis text {
+    color: #505050;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#chart svg .axis-y path {
+    display: none
+}
+
+
+#chart svg .axis-x path {
+    stroke-width: 1px;
+    stroke: #505050
+}
+
+#chart svg .axis line {
+    stroke-width: 1px;
+    stroke: #BABABA;
+    shape-rendering: crispedges;
+}
+
+#chart svg .axis-y line {
+    mix-blend-mode: multiply;
+}
+
+#chart .legend text {
+    font-family: Helvetica;
+}
+
+
+#chart .legend tspan {
+    font-weight: bold;
+}
+
+#chart .legend line {
+    stroke-width: 1px;
+}
+
+#chart .breakAxis {
+    stroke: #222222;
+}
+
+#chart .legend .noGap line {
+    stroke: #BABABA
+}
+
+#arrowNoGap {
+    fill: #BABABA
+}
+
+#chart .legend .noGap text {
+    fill: #505050;
+}
+
+#chart .legend .womenLess line {
+    stroke: #6D4CBF
+}
+
+#arrowWomenLess, #chart .legend .womenLess text {
+    fill: #6D4CBF
+}
+
+
+#chart .legend .menLess line {
+    stroke: #D17001
+}
+
+#arrowMenLess, #chart .legend .menLess text {
+    fill: #D17001
+}
+
+#chart .annotation .backCircleAnnotation {
+    opacity: 0.75;
+    stroke-width: 3px;
+    fill: #222222;
+    stroke: #222222;
+}
+
+#chart .annotation .highlightCircle {
+    stroke-width: 1.5px;
+    stroke: #ffffff;
+}
+
+
+#chart .annotation .annotatedLine {
+    stroke: #222222;
+    fill: none;
+    stroke-width: 1px;
+}
+
+#chart .annotation #arrowAnnotation {
+    fill: #222222;
+}
+
+#chart .annotation .annotationNumber {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+}
+
+#chart .annotation .annotationText {
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #222;
+}
+
+#chart .annotation .annotatedRect {
+    fill: #F7F2F8;
+}
